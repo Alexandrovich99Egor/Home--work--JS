@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 500px;
+        align-items: center;
+        background-color: black;
+        border-radius: 10px;
+
+    }
+
+    h2{
+        color: antiquewhite;
+        letter-spacing: 1px;
+        font-size: 80px;
+    }
+    .out{
+        width: 300px;
+        background-color: white;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .btn{
+        width: 100px;
+        margin-top: 20px;
+        padding: 5px;
+        backdrop-filter: blur(1px);
+        background-color: aqua;
+        outline: none;
+        background: transparent;
+        color: beige;
+        border-radius: 20px;
+        border: 1px solid white;
+        cursor: pointer;
+
+    }
+    select{
+        width: 150px;
+        padding: 10px;
+        border-radius: 20px;
+        border:  1px solid white;
+        background: transparent;
+        color: aliceblue; 
+        text-align: center;
+    }
+    option{
+        background-color: black;
+        
+    }
+    
+
+
+</style>
+<body>
+    <div class="wrapper">
+         <div class="container main">
+         <h2>Граємо?</h2>
+         <h3></h3>
+         <h2 class="out2" ></h2>
+    <select class="select">
+        <option value="Камінь">Камінь</option>
+        <option value="Бумага">Бумага</option>
+        <option value="Ножиці">Ножиці</option>
+        <option value="Колодязь">Колодязь</option>
+    </select>
+    <button class="btn" > Go! </button>
+    <div class="out">
+
+    </div>
+
+
+    </div>
+
+    </div>
+   
+
+
+    <script src="./main.js" ></script>
+</body>
+</html>
