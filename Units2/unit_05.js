@@ -105,6 +105,7 @@ function t6() {
 
 
 
+
 }
 
 document.querySelector('.b-6').onclick = t6;
